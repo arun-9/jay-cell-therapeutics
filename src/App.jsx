@@ -1,19 +1,32 @@
-import { BrowserRouter as Router, Routes } from "react-router-dom";
-import Layout from "./components/Layout";
-//import Home from "./pages/Home";
-//import About from "./pages/About";
-//import Contact from "./pages/Contact";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import TopBar from "./components/TopBar";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Technology from "./pages/Technology";
+import Pipeline from "./pages/Pipeline";
+import Publication from "./pages/Publication";
+import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
+import Career from "./pages/Career";
 
 function App() {
   return (
     <Router>
-      <Layout>
+      <div>
+        <TopBar />
+        <Navbar />
         <Routes>
-          {/*<Route path="/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />*/}
+          <Route path="/technology" element={<Technology />} />
+          <Route path="/pipeline" element={<Pipeline />} />
+          <Route path="/publications" element={<Publication />} />
+          <Route path="/careers" element={<Career />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
-      </Layout>
+        <Footer />
+      </div>
     </Router>
   );
 }
