@@ -18,7 +18,7 @@ const TopBar = () => {
       {/* Email */}
       <div className="flex items-center gap-2">
         <FaEnvelope className="text-blue-400" />
-        <span>contact@jeycell.com</span>
+        <span>contact@jaycell.com</span>
       </div>
     </motion.div>
   );
