@@ -50,7 +50,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section className="py-16 bg-gray-100">
+    <section className="py-10 bg-gray-100">
       <div className="container mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-white p-8 shadow-lg rounded-lg">
           <div>
