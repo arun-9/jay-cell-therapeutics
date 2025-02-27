@@ -24,7 +24,7 @@ const menuItems = [
     ]
   },
   { title: "Careers", link: "/careers" },
-  { title: "Contact", link: "/contact" }
+  { title: "Contact", link: "/contact-us" }
 ];
 
 const Navbar = () => {

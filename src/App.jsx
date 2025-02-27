@@ -23,7 +23,7 @@ function App() {
           <Route path="/pipeline" element={<Pipeline />} />
           <Route path="/publications" element={<Publication />} />
           <Route path="/careers" element={<Career />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact-us" element={<Contact />} />
         </Routes>
         <Footer />
       </div>

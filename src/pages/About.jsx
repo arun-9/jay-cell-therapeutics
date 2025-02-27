@@ -4,6 +4,7 @@ import AboutSection from "../components/AboutPageComponent/AboutSection";
 import TeamSection from "../components/AboutPageComponent/TeamMember";
 import TestimonialSlider from "../components/AboutPageComponent/TestimonialSlider";
 import FAQAccordion from "../components/AboutPageComponent/FAQAccordion";
+import CTASection from "../components/AboutPageComponent/CTASection";
 const About = () => {
   return (
     <div>
@@ -13,6 +14,7 @@ const About = () => {
       <TeamSection />
       <TestimonialSlider />
       <FAQAccordion />
+      <CTASection />
     </div>
   );
 };
