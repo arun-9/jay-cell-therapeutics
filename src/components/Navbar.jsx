@@ -6,22 +6,22 @@ import { FaBars, FaTimes } from "react-icons/fa";
 const menuItems = [
   {
     title: "About",
-    link: "/about",
-    submenu: [
+    link: "/about"
+    /*submenu: [
       { title: "Leadership", link: "/about#leadership" },
       { title: "Board of Directors", link: "/about#board-of-directors" },
       { title: "Vision & Mission", link: "/about#vision" }
-    ]
+    ]*/
   },
   { title: "Technology", link: "/technology" },
   { title: "Pipeline", link: "/pipeline" },
   {
     title: "Publications",
-    link: "/publications",
-    submenu: [
+    link: "/publications"
+    /*submenu: [
       { title: "Presentations & Posters", link: "/publications#present" },
       { title: "Publications & References", link: "/publications#pubs" }
-    ]
+    ]*/
   },
   { title: "Careers", link: "/careers" },
   { title: "Contact", link: "/contact-us" }
@@ -63,7 +63,7 @@ const Navbar = () => {
               </NavLink>
 
               {/* Dropdown (if submenu exists) */}
-              {item.submenu && (
+              {/*item.submenu && (
                 <ul className="absolute left-0 mt-2 bg-white text-black shadow-lg rounded-lg hidden group-hover:block w-48">
                   {item.submenu.map((subItem, subIndex) => (
                     <li key={subIndex}>
@@ -80,7 +80,7 @@ const Navbar = () => {
                     </li>
                   ))}
                 </ul>
-              )}
+              )*/}
             </li>
           ))}
         </ul>
