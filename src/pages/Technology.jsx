@@ -1,5 +1,10 @@
+import TechnologyContent from "../components/TechnologyPageComponent/TechnologyContent";
 const Technology = () => {
-  return <div>Technology</div>;
+  return (
+    <div>
+      <TechnologyContent />
+    </div>
+  );
 };
 
 export default Technology;
