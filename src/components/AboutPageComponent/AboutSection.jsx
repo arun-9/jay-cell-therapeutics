@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaAward, FaHeart, FaSmile, FaSketch } from "react-icons/fa";
+//import { FaAward, FaHeart, FaSmile, FaSketch } from "react-icons/fa";
 
 const AboutSection = () => {
   return (
@@ -69,7 +69,7 @@ const AboutSection = () => {
         </div>
 
         {/* Counter Section */}
-        <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-8">
+        {/*<div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-8">
           <CounterItem
             icon={<FaSketch />}
             number={20}
@@ -90,14 +90,14 @@ const AboutSection = () => {
             number={15}
             label="Certifications/Awards"
           />
-        </div>
+        </div>*/}
       </div>
     </section>
   );
 };
 
-// eslint-disable-next-line react/prop-types
-const CounterItem = ({ icon, number, label }) => {
+{
+  /*const CounterItem = ({ icon, number, label }) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -110,6 +110,7 @@ const CounterItem = ({ icon, number, label }) => {
       <p className="text-gray-600 mt-1">{label}</p>
     </motion.div>
   );
-};
+};*/
+}
 
 export default AboutSection;
