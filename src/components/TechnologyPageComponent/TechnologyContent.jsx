@@ -75,7 +75,7 @@ const TechnologyContent = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            Jay Cell’s Advanced CAR-NK Therapy
+            Jay Cell Therapeutics Advanced CAR-NK Therapy
           </motion.h2>
           <div className="overflow-x-auto mt-6">
             <table className="w-full border-collapse bg-white shadow-lg">
@@ -118,8 +118,8 @@ const TechnologyContent = () => {
             Off-the-Shelf Manufacturing
           </motion.h2>
           <p className="mt-4 text-lg text-gray-700 text-center leading-relaxed">
-            Jay Cell’s proprietary platform enables scalable, allogeneic NK cell
-            production for rapid, off-the-shelf use.
+            Jay Cell Therapeutics proprietary platform enables scalable,
+            allogeneic NK cell production for rapid, off-the-shelf use.
           </p>
 
           {/* Manufacturing Steps */}
@@ -141,32 +141,32 @@ const TechnologyContent = () => {
               {
                 step: "1 | Collect & Isolate",
                 description:
-                  "NK cells collected from healthy donors by leukapheresis."
+                  "NK cells collected from healthy donors by leukapheresis.",
               },
               {
                 step: "2 | Activate",
                 description:
-                  "NK cell expansion using proprietary stimulatory cells."
+                  "NK cell expansion using proprietary stimulatory cells.",
               },
               {
                 step: "3 | Engineer",
                 description:
-                  "Expanded NK cells are transduced to express mbIL-15 and CAR."
+                  "Expanded NK cells are transduced to express mbIL-15 and CAR.",
               },
               {
                 step: "4 | Expand",
-                description: "Continued expansion driven by mbIL-15."
+                description: "Continued expansion driven by mbIL-15.",
               },
               {
                 step: "5 | Cryopreserve",
                 description:
-                  "Harvesting and cryopreservation of final cell product."
+                  "Harvesting and cryopreservation of final cell product.",
               },
               {
                 step: "6 | Thaw & Administer",
                 description:
-                  "NK product candidate is thawed for off-the-shelf administration to patients."
-              }
+                  "NK product candidate is thawed for off-the-shelf administration to patients.",
+              },
             ].map((step, index) => (
               <motion.div
                 key={index}
@@ -218,18 +218,18 @@ const TechnologyContent = () => {
               {
                 title: "Enhanced Tumor Recognition",
                 description:
-                  "Advanced NK cell engineering improves precision in identifying and attacking cancer cells."
+                  "Advanced NK cell engineering improves precision in identifying and attacking cancer cells.",
               },
               {
                 title: "Scalable & Abundant Supply",
                 description:
-                  "Allogeneic NK cells are expanded efficiently for off-the-shelf availability."
+                  "Allogeneic NK cells are expanded efficiently for off-the-shelf availability.",
               },
               {
                 title: "Longer Persistence & Activity",
                 description:
-                  "Optimized persistence allows NK cells to remain active in the body for sustained response."
-              }
+                  "Optimized persistence allows NK cells to remain active in the body for sustained response.",
+              },
             ].map((item, index) => (
               <motion.div
                 key={index}

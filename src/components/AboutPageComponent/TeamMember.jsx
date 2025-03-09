@@ -3,7 +3,7 @@ import {
   FaFacebookF,
   FaTwitter,
   FaLinkedinIn,
-  FaInstagram
+  FaInstagram,
 } from "react-icons/fa";
 
 const team = [
@@ -11,26 +11,26 @@ const team = [
     image: "/team-item-1.jpg",
     name: "Dr. Emily Stevens",
     role: "Lead Therapist",
-    delay: 0
+    delay: 0,
   },
   {
     image: "/team-item-2.jpg",
     name: "Michael Carter",
     role: "Family Therapist",
-    delay: 0.2
+    delay: 0.2,
   },
   {
     image: "/team-item-3.jpg",
     name: "Sarah Martinez",
     role: "Child Therapist",
-    delay: 0.4
+    delay: 0.4,
   },
   {
     image: "/team-item-4.jpg",
     name: "Dr. James Mcavoy",
     role: "Clinical Psychologist",
-    delay: 0.6
-  }
+    delay: 0.6,
+  },
 ];
 
 // Individual Team Member Component
@@ -80,11 +80,8 @@ const TeamSection = () => {
           transition={{ duration: 0.6 }}
         >
           <p className="text-lg text-gray-600">Our Teams</p>
-          <h3 className="text-3xl font-bold">Meet Our Expert Therapists</h3>
-          <p className="text-gray-500">
-            A team of licensed therapists focused on your mental health and
-            growth.
-          </p>
+          <h3 className="text-3xl font-bold">Meet Our Expert Scientists</h3>
+          <p className="text-gray-500">A team of renowned scientists</p>
         </motion.div>
 
         {/* Animated Team Members Grid */}
@@ -96,8 +93,8 @@ const TeamSection = () => {
             hidden: { opacity: 0 },
             visible: {
               opacity: 1,
-              transition: { staggerChildren: 0.2 }
-            }
+              transition: { staggerChildren: 0.2 },
+            },
           }}
         >
           {team.map((member, index) => (
