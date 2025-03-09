@@ -4,7 +4,7 @@ import {
   FaFacebookF,
   FaTwitter,
   FaLinkedinIn,
-  FaInstagram
+  FaInstagram,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -18,10 +18,12 @@ const Footer = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
           >
-            <h2 className="text-2xl font-bold text-white">Jay Cell</h2>
+            <h2 className="text-2xl font-bold text-white">
+              Jay Cell Therapeutics
+            </h2>
             <p className="mt-3 text-sm">
               Advancing cell therapy to fight diseases with innovative
-              technology.
+              technology
             </p>
           </motion.div>
 
@@ -91,7 +93,8 @@ const Footer = () => {
 
         {/* Bottom Line */}
         <div className="mt-8 border-t border-gray-700 pt-4 text-center text-sm">
-          © {new Date().getFullYear()} Jay Cell. All Rights Reserved.
+          © {new Date().getFullYear()} Jay Cell Therapeutics. All Rights
+          Reserved.
         </div>
       </div>
     </footer>

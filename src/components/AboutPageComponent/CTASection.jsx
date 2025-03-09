@@ -13,16 +13,16 @@ const CTASection = () => {
           className="md:w-1/2 text-left"
         >
           <p className="text-lg text-blue-600 font-semibold">
-            BEGIN YOUR HEALING JOURNEY
+            CUTTING-EDGE OFF-THE-SHELF TREATMENTS
           </p>
           <h2 className="text-3xl md:text-4xl font-bold mt-2 text-gray-900">
-            Begin Your Transformation to a More Fulfilling Life
+            Our focus includes optimizing iPSC-derived NK cell manufacturing
           </h2>
           <p className="text-gray-700 mt-4 leading-relaxed">
-            We offer compassionate, personalized care to address your unique
-            needs. We are committed to working with you to find a resolution
-            promptly. Let’s take the first step towards a healthier, happier
-            you.
+            Jay Cell Therapeutics is committed to pioneering next-generation
+            cellular immunotherapies, expanding into CAR-T cell research to
+            develop synergistic treatment strategies for difficult-to-treat
+            cancers.
           </p>
           <motion.a
             href="/contact-us"
@@ -31,7 +31,7 @@ const CTASection = () => {
             className="mt-6 inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg shadow-lg text-lg font-medium transition-all hover:bg-blue-700 hover:shadow-xl"
           >
             <span className="relative group">
-              Book a Consultation
+              Talk to our Scientists
               <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
             </span>
             <motion.span

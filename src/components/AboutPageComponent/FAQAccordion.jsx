@@ -3,30 +3,35 @@ import { FaChevronDown } from "react-icons/fa";
 
 const faqs = [
   {
-    question: "What types of therapy do you offer at Jay Cell?",
+    question:
+      "What are the key differences between NK cell therapy and CAR-T cell therapy?",
     answer:
-      "We offer a range of therapeutics, including regenerative medicine, cell therapy, and personalized treatments tailored to individual needs."
+      "NK (Natural Killer) cell therapy utilizes innate immune cells that can recognize and kill tumor cells without prior sensitization, while CAR-T (Chimeric Antigen Receptor T) cell therapy uses genetically engineered T cells that are specifically designed to target cancer cells expressing a particular antigen. ",
   },
   {
-    question: "How do I know if therapy is right for me?",
+    question:
+      "How does CAR-NK cell therapy combine the advantages of both approaches?",
     answer:
-      "If you are facing health challenges or seeking innovative treatments, a consultation with our specialists can help determine the best approach for you."
+      "CAR-NK cell therapy integrates the antigen-specific targeting ability of CAR-T cells with the natural cytotoxicity and safety profile of NK cells. By engineering NK cells with a chimeric antigen receptor (CAR), they gain enhanced specificity and persistence in targeting cancer cells while maintaining their ability to kill through innate mechanisms",
   },
   {
-    question: "What should I expect during my first consultation?",
+    question:
+      "What are the latest advancements in improving CAR-NK cell therapy for solid tumors?",
     answer:
-      "Your first consultation will involve a comprehensive assessment of your condition, medical history, and potential treatment options available at Jey Cell."
+      "Recent advancements include genetic modifications to improve persistence (e.g., IL-15 secretion), strategies to overcome immunosuppressive signals (e.g., knocking down TGF-β signaling), and combination therapies with checkpoint inhibitors or monoclonal antibodies.",
   },
   {
-    question: "Do you offer virtual consultations?",
+    question:
+      "Why is CAR-T cell therapy more effective in hematologic malignancies than in solid tumors?",
     answer:
-      "Yes, we offer online consultations for patients who are unable to visit our clinic in person."
+      "CAR-T cells have shown remarkable success in treating blood cancers like leukemia and lymphoma because these malignancies present well-defined target antigens (e.g., CD19, BCMA) that are easily accessible.",
   },
   {
-    question: "How long does a typical session last?",
+    question:
+      "What are the advantages of using allogeneic NK cells over autologous CAR-T cells in cancer therapy?",
     answer:
-      "A standard session typically lasts between 45 minutes to an hour, depending on the type of therapy or consultation."
-  }
+      "NK cells can be pre-manufactured and stored for immediate use, whereas CAR-T therapy requires a time-consuming patient-specific manufacturing process.",
+  },
 ];
 
 export default function FAQAccordion() {

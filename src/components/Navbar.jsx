@@ -6,7 +6,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 const menuItems = [
   {
     title: "About",
-    link: "/about"
+    link: "/about",
     /*submenu: [
       { title: "Leadership", link: "/about#leadership" },
       { title: "Board of Directors", link: "/about#board-of-directors" },
@@ -17,14 +17,14 @@ const menuItems = [
   { title: "Pipeline", link: "/pipeline" },
   {
     title: "Publications",
-    link: "/publications"
+    link: "/publications",
     /*submenu: [
       { title: "Presentations & Posters", link: "/publications#present" },
       { title: "Publications & References", link: "/publications#pubs" }
     ]*/
   },
   { title: "Careers", link: "/careers" },
-  { title: "Contact", link: "/contact-us" }
+  { title: "Contact", link: "/contact-us" },
 ];
 
 const Navbar = () => {
@@ -44,7 +44,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <NavLink to="/" className="text-2xl font-bold">
-          Jay Cell
+          Jay Cell Therapeutics
         </NavLink>
 
         {/* Desktop Menu */}

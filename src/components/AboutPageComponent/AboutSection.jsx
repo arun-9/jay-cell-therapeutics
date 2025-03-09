@@ -12,7 +12,7 @@ const AboutSection = () => {
           transition={{ duration: 1 }}
           className="text-4xl font-extrabold text-gray-800"
         >
-          Welcome to The Jay Cell
+          Welcome to The Jay Cell Therapeutics
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -20,9 +20,13 @@ const AboutSection = () => {
           transition={{ duration: 1, delay: 0.3 }}
           className="mt-4 text-gray-600 max-w-2xl mx-auto"
         >
-          It is a trusted counseling and therapy center, staffed by experienced
-          professionals dedicated to listening, supporting, and guiding you. We
-          believe in everyone potential to heal and grow with the right care.
+          Jay Cell Therapeutics is a cutting-edge biotech company dedicated to
+          advancing NK cell-based immunotherapies for cancer. Leveraging
+          innovative genetic engineering, we develop potent CAR-NK cell
+          therapies to target both hematologic and solid tumors. Our research
+          integrates CRISPR-based gene editing, iPSC-derived NK cells, and novel
+          checkpoint inhibition strategies to enhance persistence, efficacy, and
+          safety.
         </motion.p>
 
         {/* Image */}
@@ -49,9 +53,9 @@ const AboutSection = () => {
           >
             <h3 className="text-2xl font-bold text-gray-800">Our Mission</h3>
             <p className="mt-2 text-gray-600">
-              At Jay Cell, our mission is to provide compassionate, personalized
-              mental health care that helps individuals and families overcome
-              challenges.
+              At Jay Cell Therapeutics, our mission is mission is to develop
+              innovative, off-the-shelf CAR-NK and CAR-T cell therapies to
+              revolutionize cancer treatment worldwide.
             </p>
           </motion.div>
           <motion.div
@@ -62,8 +66,9 @@ const AboutSection = () => {
           >
             <h3 className="text-2xl font-bold text-gray-800">Our Vision</h3>
             <p className="mt-2 text-gray-600">
-              Our vision is to be a leading center for mental health, where
-              everyone has access to the care and support they need.
+              Our vision is to become a global leader in next-generation cell
+              therapies, pioneering safe, effective, and accessible NK and CAR-T
+              treatments to cure cancer.
             </p>
           </motion.div>
         </div>
