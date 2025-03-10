@@ -12,7 +12,7 @@ const AboutSection = () => {
           transition={{ duration: 1 }}
           className="text-4xl font-extrabold text-gray-800"
         >
-          Welcome to The Jay Cell Therapeutics
+          Welcome to The JayCell
         </motion.h2>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -53,9 +53,9 @@ const AboutSection = () => {
           >
             <h3 className="text-2xl font-bold text-gray-800">Our Mission</h3>
             <p className="mt-2 text-gray-600">
-              At Jay Cell Therapeutics, our mission is mission is to develop
-              innovative, off-the-shelf CAR-NK and CAR-T cell therapies to
-              revolutionize cancer treatment worldwide.
+              At JayCell, our mission is mission is to develop innovative,
+              off-the-shelf CAR-NK and CAR-T cell therapies to revolutionize
+              cancer treatment worldwide.
             </p>
           </motion.div>
           <motion.div
