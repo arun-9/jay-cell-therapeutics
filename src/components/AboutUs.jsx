@@ -10,9 +10,7 @@ const AboutUs = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <p className="text-lg text-blue-600 font-semibold">
-            About Jay Cell Therapeutics
-          </p>
+          <p className="text-lg text-blue-600 font-semibold">About JayCell</p>
           <h3 className="text-3xl md:text-4xl font-bold mt-2 text-gray-900">
             Each cell therapy we develop is uniquely designed for each patient,
             harnessing the power of the immune system to target and attack
