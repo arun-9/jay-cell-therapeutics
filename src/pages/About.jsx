@@ -8,6 +8,7 @@ import CTASection from "../components/AboutPageComponent/CTASection";
 import PatentsSection from "../components/AboutPageComponent/PatentsSection";
 import QASection from "../components/AboutPageComponent/QASection";
 import PartnerWithUs from "../components/AboutPageComponent/PartnerWithUs";
+import NewsSection from "../components/AboutPageComponent/NewsSection";
 const About = () => {
   return (
     <div>
@@ -20,6 +21,7 @@ const About = () => {
       <QASection />
       {/*<FAQAccordion />*/}
       <PartnerWithUs />
+      <NewsSection />
       <CTASection />
     </div>
   );
