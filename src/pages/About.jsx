@@ -5,7 +5,7 @@ import TeamSection from "../components/AboutPageComponent/TeamMember";
 //import TestimonialSlider from "../components/AboutPageComponent/TestimonialSlider";
 //import FAQAccordion from "../components/AboutPageComponent/FAQAccordion";
 import CTASection from "../components/AboutPageComponent/CTASection";
-import PatentsSection from "../components/AboutPageComponent/PatentsSection";
+//import PatentsSection from "../components/AboutPageComponent/PatentsSection";
 import QASection from "../components/AboutPageComponent/QASection";
 import PartnerWithUs from "../components/AboutPageComponent/PartnerWithUs";
 import NewsSection from "../components/AboutPageComponent/NewsSection";
@@ -16,8 +16,8 @@ const About = () => {
       <AboutSection />
       {/*<StatisticsSection />*/}
       <TeamSection />
-      {/*<TestimonialSlider />*/}
-      <PatentsSection />
+      {/*<TestimonialSlider />
+      <PatentsSection />*/}
       <QASection />
       {/*<FAQAccordion />*/}
       <PartnerWithUs />

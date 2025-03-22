@@ -130,7 +130,7 @@ const TechnologyContent = () => {
             transition={{ duration: 0.6, delay: 0.3 }}
           >
             <img
-              src="/manufacturing_process.jpg"
+              src="/manufacturing_process.png"
               alt="Manufacturing Process"
               className="rounded-lg shadow-lg w-full max-w-4xl object-cover"
             />
@@ -139,34 +139,34 @@ const TechnologyContent = () => {
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 text-center text-sm md:text-base mt-6">
             {[
               {
-                step: "1 | Collect & Isolate",
+                step: "1 | Isolation",
                 description:
-                  "NK cells collected from healthy donors by leukapheresis.",
+                  "Peripheral blood (PB) NK cells are isolated from the donor."
               },
               {
-                step: "2 | Activate",
+                step: "2 | Activation & Expansion",
                 description:
-                  "NK cell expansion using proprietary stimulatory cells.",
+                  "Feeder cells and cytokines are used to activate and expand NK cells."
               },
               {
-                step: "3 | Engineer",
-                description:
-                  "Expanded NK cells are transduced to express mbIL-15 and CAR.",
+                step: "3 | Manufacturing",
+                description: "The expanded NK cells undergo further processing."
               },
               {
-                step: "4 | Expand",
-                description: "Continued expansion driven by mbIL-15.",
+                step: "4 | Formulation",
+                description:
+                  "The NK cells are formulated into a therapeutic product."
               },
               {
-                step: "5 | Cryopreserve",
+                step: "5 | Cryopreservation",
                 description:
-                  "Harvesting and cryopreservation of final cell product.",
+                  "NK cells are stored in cryostorage freezing bags for later use."
               },
               {
-                step: "6 | Thaw & Administer",
+                step: "6 | Infusion & Therapy",
                 description:
-                  "NK product candidate is thawed for off-the-shelf administration to patients.",
-              },
+                  "Patients receive fresh NK cell infusion, or it is used as off-the-shelf therapy."
+              }
             ].map((step, index) => (
               <motion.div
                 key={index}
@@ -183,7 +183,6 @@ const TechnologyContent = () => {
         </div>
       </section>
 
-      {/* Enhancing the Immune Response Against Cancer */}
       {/* Enhancing the Immune Response Against Cancer */}
       <section className="py-16 px-6 bg-gray-50">
         <div className="max-w-4xl mx-auto text-center">
@@ -218,18 +217,18 @@ const TechnologyContent = () => {
               {
                 title: "Enhanced Tumor Recognition",
                 description:
-                  "Advanced NK cell engineering improves precision in identifying and attacking cancer cells.",
+                  "Advanced NK cell engineering improves precision in identifying and attacking cancer cells."
               },
               {
                 title: "Scalable & Abundant Supply",
                 description:
-                  "Allogeneic NK cells are expanded efficiently for off-the-shelf availability.",
+                  "Allogeneic NK cells are expanded efficiently for off-the-shelf availability."
               },
               {
                 title: "Longer Persistence & Activity",
                 description:
-                  "Optimized persistence allows NK cells to remain active in the body for sustained response.",
-              },
+                  "Optimized persistence allows NK cells to remain active in the body for sustained response."
+              }
             ].map((item, index) => (
               <motion.div
                 key={index}

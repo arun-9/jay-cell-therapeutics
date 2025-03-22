@@ -14,9 +14,7 @@ const menuItems = [
     ]*/
   },
   { title: "Technology", link: "/technology" },
-
-  /*title: "Pipeline", link: "/pipeline"*/
-
+  { title: "Pipeline", link: "/pipeline" },
   {
     title: "Publications",
     link: "/publications"
@@ -45,11 +43,8 @@ const Navbar = () => {
     <nav className="bg-blue-600 text-white">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
-        <NavLink
-          to="/"
-          className="text-2xl font-bold flex items-center space-x-2"
-        >
-          <img src="/13.png" alt="JayCell Logo" className=" w-auto" />
+        <NavLink to="/" className="text-2xl font-bold">
+          JayCell
         </NavLink>
 
         {/* Desktop Menu */}
