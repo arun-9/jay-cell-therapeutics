@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Technology from "./pages/Technology";
-import Pipeline from "./pages/Pipeline";
+//import Pipeline from "./pages/Pipeline";
 import Publication from "./pages/Publication";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
@@ -20,7 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/technology" element={<Technology />} />
-          <Route path="/pipeline" element={<Pipeline />} />
+          {/*<Route path="/pipeline" element={<Pipeline />} />*/}
           <Route path="/publications" element={<Publication />} />
           <Route path="/careers" element={<Career />} />
           <Route path="/contact-us" element={<Contact />} />
