@@ -7,21 +7,7 @@ const CareersSection = () => {
       <div className="container mx-auto px-6">
         {/* Two-Column Layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-          {/* Left Column: Image */}
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1 }}
-            className="w-full"
-          >
-            <img
-              src="/career-image.jpg"
-              alt="Join Our Team"
-              className="w-full rounded-xl shadow-lg"
-            />
-          </motion.div>
-
-          {/* Right Column: Text Content */}
+          {/* Left Column: Text Content */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
@@ -42,6 +28,20 @@ const CareersSection = () => {
             >
               Explore Careers →
             </Link>
+          </motion.div>
+
+          {/* Right Column: Image */}
+          <motion.div
+            initial={{ opacity: 0, x: -50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1 }}
+            className="w-full"
+          >
+            <img
+              src="/career-image.jpg"
+              alt="Join Our Team"
+              className="w-full rounded-xl shadow-lg"
+            />
           </motion.div>
         </div>
       </div>
