@@ -49,7 +49,11 @@ const Navbar = () => {
           to="/"
           className="text-2xl font-bold flex items-center space-x-2"
         >
-          <img src="/13.png" alt="JayCell Logo" className=" w-auto" />
+          <img
+            src="/jaycell-removebg-preview (1).png"
+            alt="JayCell Logo"
+            className="w-32 h-auto"
+          />
         </NavLink>
 
         {/* Desktop Menu */}
